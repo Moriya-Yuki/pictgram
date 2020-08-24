@@ -10,6 +10,7 @@ h1, h2 {
   color: #fff;
   border: 1px solid #fff;
   padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 20px;
   background-color: rgba(0,0,0,0.0);
   
@@ -40,4 +41,34 @@ h1, h2 {
   h2 {
     margin-bottom: 60px;
   }
+}
+
+.form-control {
+  height: 45px;
+}
+  
+.users-new-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: image-url('bg-top.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  backgraoun-attachment: fixed;
+  backgruond-size: cover;
+  background-color: #464646;
+  
+  .users-new-container {
+    padding-top: 220px;
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.alert {
+  margin-bottom: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
 }
