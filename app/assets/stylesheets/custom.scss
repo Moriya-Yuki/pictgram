@@ -125,18 +125,19 @@ h1, h2 {
       width: 100%;
     }
 
-    .favorite-btn {
+    .like-btn {
       width: 35px;
       height: 30px;
+      color: #808080; 
       margin-left: 20px;
-    }
-
-    .unfavorite-btn {
+      }
+     
+     .unlike-btn {
       width: 35px;
       height: 30px;
       color: #e54747;
       margin-left: 20px;
-    }
+      }
 
     .topic-index-icon {
       width: 35px;
