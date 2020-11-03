@@ -1,5 +1,7 @@
 {
   "name": "pictgram",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "gulp": "file:../../../../usr/local/Cellar/node/15.0.1/lib/node_modules/gulp"
+  }
 }
